@@ -4,6 +4,7 @@
 
 1. In the `_data` directory, open the mentors.yml or the students.yml for whichever one needs to be changed.
 2. At the end of a file, create a new block with the following information
+ 
  ```
  - name: 
   github: 
@@ -18,7 +19,7 @@
 4. For adding the image, just add the image name with the extension like `daksh.jpg` and add that image in the `img/mentors` or the `img/students` directory.
 
 
-Testing this
+##Testing this
 
 [![Build Status](https://travis-ci.org/fossasia/gci15.fossasia.org.svg)](https://travis-ci.org/fossasia/gci15.fossasia.org)
 
