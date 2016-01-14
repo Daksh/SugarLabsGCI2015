@@ -1,4 +1,22 @@
-# FOSSASIA GCI Site 2015/16
+# Sugar Labs GCI Site 2015/16
+
+##Adding Mentors/Students to the list
+
+1. In the `_data` directory, open the mentors.yml or the students.yml for whichever one needs to be changed.
+2. At the end of a file, create a new block with the following information
+ ```
+ - name: 
+  github: 
+  image: 
+  blog:
+  twitter:
+  facebook:
+  stackexchange: 
+  bio:
+  ```
+3. Add all the information that is available and feel free to leave the lines for which information is not present.
+4. For adding the image, just add the image name with the extension like `daksh.jpg` and add that image in the `img/mentors` or the `img/students` directory.
+
 
 Testing this
 
