@@ -197,7 +197,7 @@ $(document).ready(function() {
   $("#GPlusPage").html('<div class="g-page" data-layout="' + (isMobile ? "landscape" : "portrait") + '" data-width="' + (isMobile ? 150 : 450) + '" data-href="https://plus.google.com/+FossasiaOrg"></div>');
   //End Dynamic Social Widgets
 
-  $.getJSON("https://api.github.com/repos/fossasia/gci15.fossasia.org/contributors", function (json) {
+  $.getJSON("https://api.github.com/repos/Daksh/SugarLabsGCI2015/contributors", function (json) {
     output = "";
     for (var i = 0; i <= json.length - 1; i++) {
       output = output + '<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">\n';
@@ -277,7 +277,8 @@ $(document).ready(function() {
   };
   
   var fetchLoklakTweets = $.ajax({
-    url: "http://loklak.org/api/search.json?q=%40fossasia&count=20", //get @fossasia tweets
+    //url: "http://loklak.org/api/search.json?q=%40sugarlabs&count=20", //get @sugarlabs tweets
+    url: "http://loklak.org/api/search.json?timezoneOffset=-330&q=sugarlabs",
     method: "GET",
     dataType: "jsonp"
   });

@@ -146,7 +146,7 @@ p.equal_pad.slide__text-desc{
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("../img/community.jpg");
+  background-image: url("../img/xo.jpg");
   background-position: center center; 
     background-repeat:no-repeat;
 }
@@ -160,7 +160,7 @@ p.equal_pad.slide__text-desc{
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("../img/youth.jpg");
+  background-image: url("../img/sos.jpg");
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #ff4646;
