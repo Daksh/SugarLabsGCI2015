@@ -62,3 +62,7 @@ Note: You will have to install apache if it is not already installed and the abo
 ## Demo
 
 You can see the current website [over here](http://daksh.github.io/SugarLabsGCI2015/).
+
+
+##Credits
+Took the basic source code from the [FOSSASIA's repo](https://github.com/fossasia/gci15.fossasia.org)
